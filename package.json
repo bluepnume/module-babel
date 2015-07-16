@@ -1,0 +1,18 @@
+{
+  "name": "module-babel",
+  "version": "0.0.2",
+  "description": "Allows babel/register in node modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel",
+    "es6"
+  ],
+  "author": "dbrain",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel": "^5.6.23"
+  }
+}
