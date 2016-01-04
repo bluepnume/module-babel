@@ -1,6 +1,6 @@
 {
   "name": "module-babel",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Allows babel/register in node modules",
   "main": "index.js",
   "scripts": {
