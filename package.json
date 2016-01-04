@@ -1,6 +1,6 @@
 {
   "name": "module-babel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Allows babel/register in node modules",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "dbrain",
   "license": "MIT",
   "peerDependencies": {
-    "babel": "^5.6.23"
+    "babel-core": "^6.0.0",
+    "babel-polyfill": "^6.0.0"
   }
 }

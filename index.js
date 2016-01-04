@@ -1,3 +1,4 @@
+require("babel-polyfill");
 var whitelist = [];
 
 module.exports = function(dirname) {
@@ -11,5 +12,5 @@ module.exports = function(dirname) {
     var opts  = {};
     opts.only = whitelist;
 
-    require('babel/register')(opts);
+    require('babel-core/register')(opts);
 };
